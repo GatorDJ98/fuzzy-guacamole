@@ -6,3 +6,4 @@ for (j = 0; j < info.length; j++) {
     //do something
     $("#arrayOutput").append(info[j] + "<br/>");
   }
+  
