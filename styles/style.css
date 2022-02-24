@@ -57,21 +57,46 @@ footer {
   color: white;
 }
 
+
+
+
+
+
+
+
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center
+  position: relative;
+  text-align: center;
+  color: white;
 }
-
-img {
-  max-width: 100%
+    
+.bottom-left {
+  position: absolute;
+  bottom: 4px;
+  left: 8px;
 }
-
-.image {
-  flex-basis: 40%
+    
+.top-left {
+  position: absolute;
+  top: 4px;
+  left: 8px;
 }
-
-.text {
-  font-size: 20px;
-  padding-left: 20px;
+    
+.top-right {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+}
+    
+.bottom-right {
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+}
+    
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
