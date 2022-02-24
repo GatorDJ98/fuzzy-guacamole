@@ -56,43 +56,38 @@ footer {
   background-color: black;
   color: white;
 }
-h1{
-  text-align: center;
-}
 
-.imageContainer {
-  margin-left:36%;
-  display: inline-block;
+.container {
   position: relative;
   text-align: center;
-  color: rgb(64, 11, 124);
+  color: white;
 }
-.caption{
-  font-size: 25px;
-  font-weight: bolder;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.BL {
+    
+.bottom-left {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 4px;
+  left: 8px;
 }
-.TL{
+    
+.top-left {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 4px;
+  left: 8px;
 }
-.TR {
+    
+.top-right {
   position: absolute;
-  top: 8px;
-  right: 16px;
+  top: 4px;
+  right: 8px;
 }
-.BR {
+    
+.bottom-right {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 4px;
+  right: 8px;
 }
-.center {
+    
+.centered {
   position: absolute;
   top: 50%;
   left: 50%;
